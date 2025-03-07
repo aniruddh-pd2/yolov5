@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 21
+names: ['Drawout', 'Indicating Lamp', 'KEY INTERLOCK', 'Kilowatt meter', 'Load Breaker', 'MV Circuit breaker', 'Potential Transformer', 'Relay Failure', 'Series Reactor', 'Surge arresttor', 'Transformer 2', 'Transformer 3', 'Voltmeter with selctor switch', 'diesel generator', 'hooter', 'illuminated push button', 'kilowatt hour', 'miniature circuit breaker', 'mushroom push buttom', 'push Button', 'tr_4']
+
+roboflow:
+  workspace: anii
+  project: secqr_lens
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/anii/secqr_lens/dataset/1
